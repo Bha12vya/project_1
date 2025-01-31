@@ -1,4 +1,4 @@
-*{
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,11 +15,11 @@ nav {
     position: sticky;
     top: 0;
 }
-nav .d1{
+/* nav .d1{
     flex: 1;
     color: white;
     font-size: 30px;
-}
+} */
 nav .d2{
     flex: 1;
     display: flex;
@@ -27,7 +27,9 @@ nav .d2{
     justify-content: space-between;
     align-items: center;
     gap: 10%;
-    color: white;
+    color: white; 
+    text-shadow: 1px 5px 5px rgb(19, 19, 19);
+    
 
 }
 .part1{
@@ -167,16 +169,15 @@ nav .d1 {
     font-size: 24px; 
     text-align: center; 
     margin-bottom: 10px; 
-    background-color: rgb(18, 123, 97);
-    text-shadow: 2px 2px rgb(6, 202, 150);
     
-}
+ }
 
 nav .d2 {
     flex-direction: row; 
     gap: 10px; 
     display: flex;
     flex-wrap: wrap;
+    
 
 }
 
@@ -187,8 +188,7 @@ nav .d2 div {
     transition: background-color 0.3s ease;
     width: 100%; 
     text-align: center; 
-    background-color: rgb(18, 123, 97);
-    text-shadow: 2px 2px rgb(78, 112, 103);
+     
 }
 
 nav .d2 div:hover {
@@ -249,3 +249,12 @@ ul {
     list-style-type: disc;
 }
 }
+
+
+
+
+
+
+
+
+
